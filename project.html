@@ -1,8 +1,78 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>Calculate Food Calories</title>
-    <link rel="stylesheet" type="text/css" href="project.css">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
-    <script type="project.js"></script>
+    <!DOCTYPE html>
+    <html>
+    <head>
+    	<title>Nutrients Calculator</title>
+    	<link rel="stylesheet" type="text/css" href="project.css">
+    	<script type="project.js"></script>
+    </head>
+    <body>
+       <div id="description">
+        <h1>Calculate Food Calories</h1>
+        <p>This website helps you to calculate easily all calories of what you eat in a whole day.</p>
+        <div>
+            <div id="input_data">
+                <img src="https://i.imgur.com/soEENMh.png" alt="Infographic of what 200 calories of every Thanksgiving food looks like" width="200" height="320" style="float:left; margin:0px 10px 10px 0px;" />
+                <div style="font-family: Courier New">
+                    <p>Please tell me the information about</p>
+                    <p> * Food Name:
+                        <select id="food_name">
+                          <option value ="43135">Sandwich spread, meatless</option>
+                          <option value ="11090">Broccoli, raw</option>
+                          <option value ="01301">Ice cream sundae cone</option>
+                      </select>
+                    </p>
+                    <p> * Weight(g):
+                        <input id="food_value" type="number" min="50" max="1000" step="10" value="100" />
+                        <button id="calculate" type="button">ADD UP</button>
+                    </p>
+                </div>
+            </div>
+            <div id="output_data">
+                <table style="border: 1px solid black;">
+                    <caption><b>Daily Intake</b></caption>
+                    <thead style="background-color:yellow">
+                        <tr>
+                            <td style="width:100px"><b>Nutrient</b></td>
+                            <td style="width:100px"><b>Value</b></td>
+                            <td style="width:100px"><b>Unit</b></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Energy</td>
+                            <td id="energy">0</td>
+                            <td>kcal</td>
+                        </tr>
+                        <tr>
+                            <td>Carbohydrate</td>
+                            <td id="carbohydrate">0</td>
+                            <td>g</td>
+                        </tr>
+                        <tr>
+                            <td>Protein</td>
+                            <td id="protein">0</td>
+                            <td>g</td>
+                        </tr>
+                        <tr>
+                            <td>Fat</td>
+                            <td id="fat">0</td>
+                            <td>g</td>
+                        </tr>
+                        <tr>
+                            <td>Fiber</td>
+                            <td id="fiber">0</td>
+                            <td>g</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>Report:
+                    <input id="email_address" type="text" value="input email here..." />
+                    <button id="send_email" type="button">send</button>
+                    <button id="reset" type="button">clear up</button>
+                </p>
+            </div>
+            <div id="foot_note" style="font-size:8px; width:660px">
+                <p>Data Sources: U.S. Department of Agriculture, Agricultural Research Service. 2017. USDA National Nutrient Database for Standard Reference, Release . Nutrient Data Laboratory Home Page, <a href="https://ndb.nal.usda.gov/ndb/">http://www.ars.usda.gov/nutrientdata</a></p>
+            </div>
+    </body>
+    </html>
