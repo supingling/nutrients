@@ -1,2 +1,2 @@
 # Nutrients Calculator
-##You Are What You Eat
+You Are What You Eat
