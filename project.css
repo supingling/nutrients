@@ -1,0 +1,10 @@
+ 
+ <div id="output_data">
+                <table style="border: 1px solid black;">
+                    <caption><b>Daily Intake</b></caption>
+                    <thead style="background-color:yellow">
+                        <tr>
+                            <td style="width:100px"><b>Nutrient</b></td>
+                            <td style="width:100px"><b>Value</b></td>
+                            <td style="width:100px"><b>Unit</b></td>
+                        </tr>
