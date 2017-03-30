@@ -1,4 +1,3 @@
-   <script>
         $(document).ready(function() {
             $("#reset").click(function() {
                 $("#energy").html(0);
@@ -80,4 +79,3 @@
                 $("#fiber").html(result.toFixed(2));
             }
         }
-    </script> 
