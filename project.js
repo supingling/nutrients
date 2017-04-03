@@ -13,7 +13,7 @@
         $(document).ready(function() {
             $("#send_email").click(function() {
                 if ($("#email_address").val() != "input email here..." && $("#email_address").val() != "") {
-                    alert("The Report has sent to email: " + $("#email_address").val());
+                    alert("The Report has been sent to email: " + $("#email_address").val());
                 }
             });
         });
