@@ -1,2 +1,2 @@
 # Nutrients Calculator
-[You Are What You Eat](https://github.com/supingling/supingling.github.io/project.html)
+[You Are What You Eat](https://supingling.github.io/project.html)
